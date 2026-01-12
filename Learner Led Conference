@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <header>
+        <link rel="stylesheet" href="LLC.css">
+    </header>
 
     <!--Navigation bar-->
     <nav>
@@ -27,32 +30,30 @@
 
     <!--Introduction-->
     <div class="content">
-        <div class="row">
+        <div cass="row">
             <h1>Ilakkiya</h1>
-            <h1 class="deco"></h1>
+            <h1 class="deco">
         </div>
         <h1>Kalanidhi</h1>
+    </div>
 
-        <p>
-            Hello! My name is Ilakkiya Kalanidhi, and I am a learner at 21K School. I have been<br>
-            studying here for the past 3 years and will be completing my 4th year soon. My hobbies include art,
-            reading<br>
-            books, spending time with friends, coding, and chess (I am still learning the last two!). This website
-            showcases<br>
-            my memories, achievements, best work, goals, and reflections from this academic year. I hope you enjoy
-            exploring<br>
-            my journey!
-        </p>
+    <p>
+        Hello! My name is Ilakkiya Kalanidhi, and I am a learner at 21K School. I have been<br>
+        studying here for the past 3 years and will be completing my 4th year soon. My hobbies include art,
+        reading<br>
+        books, spending time with friends, coding, and chess (I am still learning the last two!). This website
+        showcases<br>
+        my memories, achievements, best work, goals, and reflections from this academic year. I hope you enjoy
+        exploring<br>
+        my journey!
+    </p>
 
-        <!--My pic-->
-        <img src="https://drive.google.com/uc?export=view&id=162AqDWGVVq76lmDSF7KGhPO6gVwki8UQ" class="img-1" alt="Ilakkiya Kalanidhi">
-
-        <div id="gradient1"></div>
+    <!--My pic-->
+    <img src="LLC pics/Ilakkiya Kalanidhi.webp" class="img-1">
+    <div id="gradient1"></div>
     </div>
 
     <footer>
         <p>Made with 💖 by Ilakkiya Kalanidhi | 8MB</p>
     </footer>
-
 </body>
-</html>
