@@ -4,123 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Journey</title>
+    <title> My Journey </title>
     <link rel="stylesheet" href="LLC.css">
-    <style>
-        body {
-            background: #ebe8fc;
-            font-family: 'Comic Relief', sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-image: url('LLC Pics/Header img.svg');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            height: 200px;
-            width: 100%;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #ffffff;
-            flex-wrap: wrap;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        nav li {
-            margin: 0 5px;
-        }
-
-        nav li a {
-            display: block;
-            padding: 10px 15px;
-            text-decoration: none;
-            color: black;
-            font-weight: bold;
-        }
-
-        nav li a:hover {
-            background-color: aliceblue;
-            border-radius: 8px;
-            color: darkblue;
-        }
-
-        .content1 {
-            padding: 50px 20px;
-            text-align: center;
-        }
-
-        .content1 h1 {
-            font-size: 50px;
-            margin-bottom: 20px;
-        }
-
-        .p1 {
-            max-width: 800px;
-            margin: 0 auto 30px auto;
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        video {
-            width: 90%;
-            max-width: 1000px;
-            height: auto;
-            border-radius: 10px;
-            margin-bottom: 50px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            background: #fffefe;
-            color: #333;
-            font-size: 0.95rem;
-            box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.1);
-        }
-
-        @media (max-width: 768px) {
-            .content1 h1 {
-                font-size: 36px;
-            }
-
-            .p1 {
-                font-size: 16px;
-            }
-
-            video {
-                width: 100%;
-            }
-
-            nav ul {
-                flex-direction: column;
-            }
-
-            nav li {
-                margin-bottom: 5px;
-            }
-        }
-    </style>
 </head>
+<style>
+    body {
+        background: #ebe8fc;
+    }
+
+    header {
+        background-image: url('LLC Pics/Header\ img.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        height: 200px;
+        width: 100%;
+    }
+
+    .content1 {
+        padding-top: 100px;
+        text-align: top center;
+    }
+
+    h1 {
+        text-align: center
+    }
+
+    .p1 {
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+        font-size: large;
+    }
+</style>
 
 <body>
+    <header>
 
-    <!-- Header -->
-    <header></header>
-
-    <!-- Navigation bar -->
+    </header>
+    <!--Navigation bar-->
     <nav>
         <ul>
             <li><a href="Learner's Led Conference.html">Home Page</a></li>
@@ -135,25 +60,20 @@
         </ul>
     </nav>
 
-    <!-- My Journey Content -->
+    <!--My Journey Introduction-->
     <div class="content1">
-        <h1>My Journey</h1>
+        <h1> My Journey </h1>
         <p class="p1">
             8th Grade was amazing, filled with mixed emotions.
             I spent lots of time with my friends and learned so much along the way!
             Here are some glimpses of my journey!
         </p>
-
-        <!-- Video -->
-        <video controls>
-            <source src="https://drive.google.com/uc?export=download&id=1vU0zixDCMEZpMPsZHyOLxJoE5QjdDjpT" type="video/mp4">
+        <video width="1350" height="900" controls>
+            <source src="LLC Pics/1767929494227666.mp4" type="video/mp4">
         </video>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>Made with 💖 by Ilakkiya Kalanidhi | 8MB</p>
-    </footer>
-
+        <footer>
+            <p>Made with 💖 by Ilakkiya Kalanidhi | 8MB</p>
+        </footer>
 </body>
+
 </html>
