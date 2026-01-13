@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+
+body {
+    background: #FFF1F5;
+    font-family: "comic relief", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url('LLC Pics/Header\ img.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    height: 200px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    background-color: aliceblue;
+    border-radius: 10%;
+    color: darkblue;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+    flex-wrap: wrap;
+}
+
+.deco {
+    text-decoration: line-through;
+}
+
+.content {
+    margin-top: 15%;
+    max-width: 600px;
+    margin-left: 150px;
+}
+
+.content h1 {
+    font-size: 65px;
+    margin: 0;
+    line-height: 1;
+}
+
+.content .deco {
+    text-decoration: line-through;
+}
+
+.content .row {
+    display: flex;
+    gap: 3%;
+}
+
+.content p {
+    font-size: large;
+}
+
+.img-1 {
+    width: 250px;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    top: 50%;
+    border-radius: 5%;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #fffefe;
+    color: #333;
+    font-size: 0.95rem;
+    box-shadow: 0 -1px 6px rgba(0,0,0,0.1); /
+
+}
